@@ -1,0 +1,25 @@
+{
+  "name": "blog-demo",
+  "author": "Will",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "babel-plugin-component": "^1.1.1"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.2",
+    "lodash": "^4.17.21",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0"
+  }
+}
